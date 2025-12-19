@@ -23,9 +23,13 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-full">
           {/* Logo Area */}
           <div className="flex-shrink-0 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="flex items-center gap-2">
-               {/* Using a placeholder-like styled text for the logo based on user assets */}
-               <h1 className="text-2xl md:text-3xl font-display font-black italic tracking-tighter uppercase leading-none">
+            <div className="flex items-center gap-3">
+               <img
+                 src="/images/prime-spray-foam-logo.png"
+                 alt="Prime Spray Foam Logo"
+                 className="h-10 md:h-12 w-auto"
+               />
+               <h1 className="text-xl md:text-2xl font-display font-black italic tracking-tighter uppercase leading-none">
                   PRIME <span className="text-prime-blue">SPRAY FOAM</span>
                </h1>
             </div>

@@ -4,11 +4,11 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <header className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image - Using a placeholder for the exterior house image */}
+      {/* Background Image - Real project photo */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=2000" 
-          alt="Luxury House Construction" 
+        <img
+          src="/images/spray-foam-insulation-contractor-russellville-kentucky.jpg"
+          alt="Spray Foam Insulation Contractor in Russellville Kentucky - Metal Building Interior"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent"></div>

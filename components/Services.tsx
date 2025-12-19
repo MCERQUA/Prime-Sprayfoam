@@ -54,16 +54,16 @@ const Services: React.FC = () => {
           <h3 className="text-5xl md:text-6xl font-display font-black text-white uppercase italic">Built For Performance</h3>
         </div>
 
-        <ServiceCard 
+        <ServiceCard
           title="Pole Barns & Metal Buildings"
           description="Large agricultural or commercial storage structures often suffer from condensation and extreme temperature swings. Our spray foam solution provides a thermal break that regulates temperature and protects your assets."
-          image="https://images.unsplash.com/photo-1590674033314-14371894a4b2?auto=format&fit=crop&q=80&w=1200"
+          image="/images/metal-building-spray-foam-insulation-russellville-ky.jpg"
         />
 
-        <ServiceCard 
+        <ServiceCard
           title="Residential Insulation"
           description="From new construction walls to attic retrofits, we seal the most common air leak points in your home. This drastically improves HVAC efficiency and creates a sound barrier for a quieter, healthier environment."
-          image="https://images.unsplash.com/photo-1503387762-592dea58ef21?auto=format&fit=crop&q=80&w=1200"
+          image="/images/residential-spray-foam-insulation-home-construction.jpg"
           reverse
         />
       </div>
