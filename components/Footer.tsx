@@ -7,7 +7,11 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
-            <h2 className="text-3xl font-display font-black italic text-white uppercase mb-6">PRIME <span className="text-prime-blue">SPRAY FOAM</span></h2>
+            <img
+              src="/images/prime-spray-foam-logo-horizontal.jpg"
+              alt="Prime Spray Foam - Russellville KY Insulation Experts"
+              className="h-16 w-auto mb-6"
+            />
             <p className="text-gray-500 text-sm max-w-sm leading-relaxed mb-8">
               The premier spray foam insulation provider serving Russellville, KY. We combine professional equipment with expert application to deliver lifetime energy savings.
             </p>
